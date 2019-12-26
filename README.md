@@ -1,5 +1,4 @@
-<h1 align=center>
-Boilr
+# Oilr [Boilr Fork]
 <br>
 <img src="/assets/logo.png" height="360">
 <br>
@@ -19,8 +18,6 @@ Boilr
 
 ![Usage Demonstration](assets/usage.gif)
 
-For more details, see [Introduction](https://github.com/tmrts/boilr/wiki/Introduction) page.
-
 # Features
 * **No dependencies (NodeJS, Python Interpreter etc.)** - Boilr is a single statically linked binary.
 Grab the one that fits your architecture, and you're all set to save time by using templates!
@@ -31,6 +28,7 @@ the [license template](https://github.com/tmrts/boilr-license) to see a simple, 
 adding licenses to new projects with a single command.
 
 # Installation
+
 Binaries for Linux & OSX are built automatically by Travis every release.
 You can download them directly or run the installation script.
 
