@@ -1,7 +1,5 @@
 = Oilr [Boilr Fork]
 
-image::assets/usage.gif[Usage Demonstration]
-
 == Fork
 
 This is a fork of the upstream boilr project:
@@ -23,11 +21,6 @@ constructs which are very easy to learn and powerful.
 * **Dead-Simple Template Creation** - Creating boilerplate templates are very easy, check out
 the [license template](https://github.com/tmrts/boilr-license) to see a simple, but very useful template for
 adding licenses to new projects with a single command.
-
-== Installation
-
-Binaries for Linux & OSX are built automatically by Travis every release.
-You can download them directly or run the installation script.
 
 == Getting Started with Boilr
 
