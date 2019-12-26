@@ -1,4 +1,6 @@
-= Oilr [Boilr Fork]
+= Oilr
+
+Boilerplate template manager that generates files or directories from template repositories
 
 == Fork
 
@@ -14,43 +16,43 @@ bugfixes the littleman.co team feel is necessary.
 
 == Features
 
-* **No dependencies (NodeJS, Python Interpreter etc.)** - Boilr is a single statically linked binary.
+* **No dependencies (NodeJS, Python Interpreter etc.)** - Oilr is a single statically linked binary.
 Grab the one that fits your architecture, and you're all set to save time by using templates!
 * **Full Power of [Golang Templates](https://golang.org/pkg/text/template/)** - Golang has powerful templating
 constructs which are very easy to learn and powerful.
 * **Dead-Simple Template Creation** - Creating boilerplate templates are very easy, check out
-the [license template](https://github.com/tmrts/boilr-license) to see a simple, but very useful template for
+the [license template](https://github.com/tmrts/oilr-license) to see a simple, but very useful template for
 adding licenses to new projects with a single command.
 
-== Getting Started with Boilr
+== Getting Started with Oilr
 
-Use `boilr help` to get the list of available commands.
+Use `oilr help` to get the list of available commands.
 
 === Download a Template
 
 In order to download a template from a github repository, use the following command:
 
 ```bash
-boilr template download <github-repo-path> <template-tag>
-boilr template download tmrts/boilr-license license
+oilr template download <github-repo-path> <template-tag>
+oilr template download tmrts/boilr-license license
 ```
 
-The downloaded template will be saved to local `boilr` registry.
+The downloaded template will be saved to local `oilr` registry.
 
 === Save a Local Template
 
 In order to save a template from filesystem to the template registry use the following command:
 
 ```bash
-boilr template save <template-path> <template-tag>
-boilr template save ~/boilr-license license
+oilr template save <template-path> <template-tag>
+oilr template save ~/oilr-license license
 ```
 
-The saved template will be saved to local `boilr` registry.
+The saved template will be saved to local `oilr` registry.
 
 === Use a Template
 
-For a Boilr template with the given directory structure:
+For a oilr template with the given directory structure:
 
 ```tree
 .
@@ -77,8 +79,8 @@ And the following `project.json` context file:
 When using the template with the following command:
 
 ```bash
-boilr template use <template-tag> <target-dir>
-boilr template use license /workspace/tmrts/example-project/
+oilr template use <template-tag> <target-dir>
+oilr template use license /workspace/tmrts/example-project/
 ```
 
 The user will be prompted as follows:
